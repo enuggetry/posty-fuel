@@ -1,0 +1,244 @@
+/* styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 80px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.nav > li {
+    text-align:center;
+}
+
+.main-content {
+    margin-top: 60px;
+}
+
+.loginout-button {
+    position:fixed;
+    right:30px;
+    top:5px;
+    left: auto;
+}
+/*
+		dt/dd numbered list
+*/
+.num-list {
+	counter-reset: my-badass-counter;
+}
+.num-list dt {
+	position: relative;
+	font: bold 14px Georgia;
+	padding: 4px 0 10px 0;
+}
+.num-list dt:before {
+	content: counter(my-badass-counter);
+	counter-increment: my-badass-counter;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font: bold 15px/1 Sans-Serif;
+	color:white;
+	background-color: red;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding: 7px;
+}
+.num-list dd {
+	margin: 0 0 10px 0;
+}
+.num-list dt, .num-list dd {
+	padding-left: 30px;
+}
+
+/* ------------------------------------------
+    Select
+*/
+        .select-subbar {
+            background-color: #f5f5f5;
+            -webkit-border-bottom-right-radius: 5px;
+            -webkit-border-bottom-left-radius: 5px;
+            -moz-border-radius-bottomright: 5px;
+            -moz-border-radius-bottomleft: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;    
+            padding-left: 10px;
+            padding-top:5px;    
+        }
+        
+        .add-btn {
+            position:relative;
+            top:-5px;
+        }
+        .rssRow {
+            position:relative;
+            float: left;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            padding: 5px;
+            margin: 3px;
+            background-color: #eee;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;  
+            font-size: 10px !important;
+        }
+        .rssRow > h4 > a, .rssRow > div, .rssRow > p {
+            font-size: 70%;
+            line-height: 90%;
+        }
+        .rssRow > img.check-mark {
+            position:absolute;
+            width:30px;
+            height:30px;
+            top:0px;
+            z-index: 10;
+            display:none;
+        }
+        .rss-block {
+            display:none;
+        }
+        .channel-box {
+            position: relative;
+            width:100%;
+            height: 120px;
+            background-color: #f8f8f8;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;  
+            font-size: 12px;
+            font-weight: bold;
+            overflow:hidden;
+            margin-top:3px;
+            margin-bottom:3px;
+            padding:3px;
+            border:3px solid #ccc;
+        }
+        .channel-margin {
+            height:0px;
+        }
+        .channel-right-bar {
+            position:fixed;
+            width:200px;
+            right:30px;
+            left: auto;
+        }
+        .add-to-queue-container {
+            position:absolute;
+            top:100px;
+        }
+        .mini-image-box {
+            height:32px;width:32px;
+            float:left;
+            margin:1px;
+            overflow:hidden;
+            background-color:#bbb;
+        }
+
+/* ------------------------------------------
+    moderate
+*/
+        .queue-item-box {
+            position:relative;
+            float: left;
+            width: 250px;
+            height: 250px;
+            overflow: hidden;
+            padding: 5px;
+            margin: 3px;
+            background-color: #eee;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;  
+            font-size: 10px !important;
+        }
+        .queue-item-box > img.check-mark {
+            position:absolute;
+            width:45px;
+            top:0px;
+            z-index: 10;
+            display:none;
+        }
+        .pics {
+            width: 250px; height:200px;
+            overflow:hidden;
+            background-color:#ccc;
+        }
+        .diag-image-box {
+            width: 300px; max-height:400px;
+            overflow:hidden;
+            float:left;
+        }
+        .diag-image {
+            width: 300px;
+        }
+        .form-box {
+            float:left;
+            padding-left:13px;
+        }
+        .scheduled-1 {
+            display:inline !important;
+        }
+/* ------------------------------------------
+    schedule
+*/
+        .posty-1 {background-color: #CF5627 !important;}
+        .posty-2 {background-color: #1877AF !important;}
+        .posty-3 {background-color: #4D8963 !important;}
+        .channel-legend {
+            position: relative;
+            width:100%;
+            height: 50px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;  
+            font-size: 12px;
+            font-weight: bold;
+            overflow:hidden;
+            margin-top:3px;
+            margin-bottom:3px;
+            padding:3px;
+            border:3px solid #ccc;
+            color:#fff;
+        }
+        .channel-margin {
+            height:0px;
+        }
+        #channel-legend-container {
+            padding-top:50px;
+        }
+        #calendar-foot {padding-bottom:30px;}
