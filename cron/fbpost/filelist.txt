@@ -1,0 +1,6 @@
+index.php - login to facebook with fb app (postbaby), select fan page for post.
+db.php - open database
+cron2.php - cron job to grab database entry and post image to facebook.  a random image is selected from website.
+friends.php - example of tagging message with randomly selected friends - only works with personal wall (non fan page)
+page.php - used by index.php for some kind of login purpose.
+
