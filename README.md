@@ -11,3 +11,6 @@ Workflow: Select --> Moderate
 The data is real and the app is fully data-driven. The main workflow is mostly functional, albeit simplified. 
 The app was built from the ground up based on an idea that I had about improving the speed as which I could 
 process interesting image-based content for social propagation.  PHP and MySQL is used on the backend.
+
+Demo site (requires login)
+http://posty-fuelux.rooby.me/
