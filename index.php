@@ -13,8 +13,8 @@ include_once "header.php";
 	  <p style="padding-left: 50px;"><strong>Workflow: Select --> Moderate</strong></p>
 	  <p>
           The data is real and the app is fully data-driven.  The main workflow is mostly functional, albeit simplified.  The app was built from the ground up based
-          on an idea that I had about improving the speed as which I could process interesting image-based content for social propagation.  It's as much as I can implement
-      in about a week (diving into bootstrap/backbone). PHP and MySQL is used on the backend.</p>
+          on an idea that I had about improving the speed as which I could process interesting image-based content for social propagation.  
+          PHP and MySQL is used on the backend.</p>
 	  <h3>Usage</h3>
 	  <p>Start by selecting data from the RSS feeds (photos), using multi select.  Then select Add to Queue buttons for one of the channels (Facebook, Twitter,...).
           These are the moderation queues.  Then select the Moderation tab.  Each moderation queue has a tab holding the selected items. 
