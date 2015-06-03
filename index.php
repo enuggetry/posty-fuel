@@ -1,5 +1,5 @@
 <?php
-//index.php
+// index.php :)
 $page='home';
 include_once "header.php";
 ?>
